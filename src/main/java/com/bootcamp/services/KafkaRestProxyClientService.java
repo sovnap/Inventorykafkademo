@@ -10,10 +10,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 @Service
 public class KafkaRestProxyClientService {
-
- /* @Autowired
-  private WebClient webClient;*/
-
+  
   @Value("${common.services.url}")
   private String commonServicesUrl;
 
